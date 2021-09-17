@@ -1,0 +1,803 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="/img/startup.png" type="image/png" class="linkIcon">
+    <title>Startup</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header id="header" class="header section lock-padding">
+           
+            <div class="header__inner inner">
+                <a href="#welcome" id="logo" class="header__logo popup-links">Startup</a>
+                <ul class="header__list">
+                    <li class="header__item">
+                        <a href="#intro" data-scrollTo="intro" class="header__link">Home</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#services" class="header__link" data-scrollTo="services">Services</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#about" class="header__link" data-scrollTo="about">About</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#works" class="header__link" data-scrollTo="works">Works</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#blog" class="header__link" data-scrollTo="blog">Blog</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#clients" class="header__link" data-scrollTo="clients">Clients</a>
+                    </li>
+                    <li class="header__item">
+                        <a href="#contact" class="header__link" data-scrollTo="contacts">Contact</a>
+                    </li>
+                </ul>
+                <div class="menu__burger burger menu">
+                    <span class="burger-top"></span>
+                    <span class="burger-bottom"></span>
+                </div>
+            </div>
+        </header>
+        <section id="intro" class="intro">
+            <div class="intro__inner inner">
+                <h2 class="intro__title _anim-items">Welcome to STARTUP</h2>
+                <h4 class="intro__subtitle">Your Favourite Creative Agency Template</h4>
+                <a href="#popup" class="intro__btn btn popup-links">get started</a>
+            </div>
+        </section>
+        <section id="services" class="services">
+            <div class=" services__inner inner">
+                <h2 class=" services__title title">services</h2>
+                <h4 class=" services__subtitle subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</h4>
+                <div class="services__flex">
+                    <div class="services__item">
+                        <div class="icon-clean services__icon"></div>
+                        <h3 class="services__text" id="hackp">Clean Typography</h3>
+                        <p class="services__p" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
+                    </div>
+                    <div class="services__item">
+                        <div class="icon-code services__icon"  id="hacktext"></div>
+                        <h3 class="services__text" id="hackp">Rock Solid Code</h3>
+                        <p class="services__p" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
+                    </div>
+                    <div class="services__item">
+                        <div class="icon-support services__icon"></div>
+                        <h3 class="services__text " id="hackp">Expert Support</h3>
+                        <p class="services__p" >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
+                    </div>
+                    </div>
+                </div>
+        </section>
+        <section class="about" id="about">
+            <div class="inner about__inner">
+                <h3 class="about__title title">About us</h3>
+                <h4 class="subtitle about__subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</h4>
+                <div class="about__block">
+                    <p class="about__item">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
+                    <p class="about__item">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
+                </div>
+                <div class="about__slider wrappers">
+                    <button  class="about__prev about__btn btn-prev"><picture><source srcset="img/arrow.webp" type="image/webp"><img src="img/arrow.png" alt="" class="about__arrow"></picture></button>
+                    <button class="about__next about__btn btn-next"><picture><source srcset="img/arrow.webp" type="image/webp"><img src="img/arrow.png" alt="" class="about__arrow"></picture></button>
+                    <div class="slider-container">
+                        <div class="slider-track">
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person1.webp" type="image/webp"><img src="img/person1.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">Md. Khalil Uddin</h5>
+                                <h4 class="about__job">Head of Ideas</h4>
+                            </div>
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person2.webp" type="image/webp"><img src="img/person2.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">Rubel Miah</h5>
+                                <h4 class="about__job">Lead WordPress Developer</h4>
+                            </div>
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person3.webp" type="image/webp"><img src="img/person3.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">Shamim Mia</h5>
+                                <h4 class="about__job">Sr. Web Developer</h4>
+                            </div>
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person4.webp" type="image/webp"><img src="img/person4.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">John Doe</h5>
+                                <h4 class="about__job">Front-end Developer</h4>
+                            </div>
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person1.webp" type="image/webp"><img src="img/person1.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">Md. Khalil Uddin</h5>
+                                <h4 class="about__job">Head of Ideas</h4>
+                            </div>
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person2.webp" type="image/webp"><img src="img/person2.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">Rubel Miah</h5>
+                                <h4 class="about__job">Lead WordPress Developer</h4>
+                            </div>
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person3.webp" type="image/webp"><img src="img/person3.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">Shamim Mia</h5>
+                                <h4 class="about__job">Sr. Web Developer</h4>
+                            </div>
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person4.webp" type="image/webp"><img src="img/person4.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">John Doe</h5>
+                                <h4 class="about__job">Front-end Developer</h4>
+                            </div>
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person1.webp" type="image/webp"><img src="img/person1.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">Md. Khalil Uddin</h5>
+                                <h4 class="about__job">Head of Ideas</h4>
+                            </div>
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person2.webp" type="image/webp"><img src="img/person2.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">Rubel Miah</h5>
+                                <h4 class="about__job">Lead WordPress Developer</h4>
+                            </div>
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person3.webp" type="image/webp"><img src="img/person3.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">Shamim Mia</h5>
+                                <h4 class="about__job">Sr. Web Developer</h4>
+                            </div>
+                            <div class="about__slide">
+                                <div class="about__image">
+                                    <picture><source srcset="img/person4.webp" type="image/webp"><img src="img/person4.jpg" alt="" class="about__img"></picture>
+                                    <div class="about__socials">
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/fb.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/twitter.webp" type="image/webp"><img src="img/twitter.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/g+.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                        <a href="#" class="about__link">
+                                            <picture><source srcset="img/in.webp" type="image/webp"><img src="img/in.png" class="about__icon" alt=""></picture>
+                                        </a>
+                                    </div>
+                                </div>
+                                <h5 class="about__name">John Doe</h5>
+                                <h4 class="about__job">Front-end Developer</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="works" class="works">
+            <div class="inner works__inner">
+                <h3 class="title works__title">Latest Works</h3>
+                <ul class="works__switcher">
+                    <li href="#" class="works__btn list works__btn-active"  data-filter="All">All</li>
+                    <li href="#" class="works__btn list" data-filter="Branding">Branding</li>
+                    <li href="#" class="works__btn list" data-filter="Design">Design</li>
+                    <li href="#" class="works__btn list" data-filter="Dovelopment">Dovelopment</li>
+                    <li href="#" class="works__btn list" data-filter="Strategy">Strategy</li>
+                </ul>
+                <div class="works__plate">
+                    <div class="works__item itemBox" data-item="Branding">
+                        <picture><source srcset="img/works1.webp" type="image/webp"><img src="img/works1.jpg" alt="" class="works__img"></picture>
+                        <div class="works__info">
+                            <h4 class="works__name">Hair Dresser</h4>
+                            <h4 class="works__text">Branding</h4>
+                            <a href="#works1" class="works__link popup-links">view<picture><source srcset="img/arrowbtnt.webp" type="image/webp"><img src="img/arrowbtnt.png" alt="" class="works__arrow"></picture></a>
+                        </div>
+                    </div>
+                    <div class="works__item itemBox" data-item="Design">
+                        <picture><source srcset="img/works2.webp" type="image/webp"><img src="img/works2.jpg" alt="" class="works__img"></picture>
+                        <div class="works__info">
+                            <h4 class="works__name">Hair Dresser</h4>
+                            <h4 class="works__text">Branding</h4>
+                            <a href="#works2" class="works__link popup-links">view<picture><source srcset="img/arrowbtnt.webp" type="image/webp"><img src="img/arrowbtnt.png" alt="" class="works__arrow"></picture></a>
+                        </div>
+                    </div>
+                    <div class="works__item itemBox" data-item="Dovelopment">
+                        <picture><source srcset="img/works3.webp" type="image/webp"><img src="img/works3.jpg" alt="" class="works__img"></picture>
+                        <div class="works__info">
+                            <h4 class="works__name">Hair Dresser</h4>
+                            <h4 class="works__text">Branding</h4>
+                            <a href="#works3" class="works__link popup-links">view<picture><source srcset="img/arrowbtnt.webp" type="image/webp"><img src="img/arrowbtnt.png" alt="" class="works__arrow"></picture></a>
+                        </div>
+                    </div>
+                    <div class="works__item itemBox" data-item="Branding">
+                        <picture><source srcset="img/works4.webp" type="image/webp"><img src="img/works4.jpg" alt="" class="works__img"></picture>
+                        <div class="works__info">
+                            <h4 class="works__name">Hair Dresser</h4>
+                            <h4 class="works__text">Branding</h4>
+                            <a href="#works4" class="works__link popup-links">view<picture><source srcset="img/arrowbtnt.webp" type="image/webp"><img src="img/arrowbtnt.png" alt="" class="works__arrow"></picture></a>
+                        </div>
+                    </div>
+                    <div class="works__item itemBox" data-item="Design">
+                        <picture><source srcset="img/works5.webp" type="image/webp"><img src="img/works5.jpg" alt="" class="works__img"></picture>
+                        <div class="works__info">
+                            <h4 class="works__name">Hair Dresser</h4>
+                            <h4 class="works__text">Branding</h4>
+                            <a href="#works5" class="works__link popup-links">view<picture><source srcset="img/arrowbtnt.webp" type="image/webp"><img src="img/arrowbtnt.png" alt="" class="works__arrow"></picture></a>
+                        </div>
+                    </div>
+                    <div class="works__item itemBox" data-item="Dovelopment">
+                        <picture><source srcset="img/works6.webp" type="image/webp"><img src="img/works6.jpg" alt="" class="works__img"></picture>
+                        <div class="works__info">
+                            <h4 class="works__name">Hair Dresser</h4>
+                            <h4 class="works__text">Branding</h4>
+                            <a href="#works6" class="works__link popup-links">view<picture><source srcset="img/arrowbtnt.webp" type="image/webp"><img src="img/arrowbtnt.png" alt="" class="works__arrow"></picture></a>
+                        </div>
+                    </div>
+                    <div class="works__item itemBox" data-item="Strategy">
+                        <picture><source srcset="img/works7.webp" type="image/webp"><img src="img/works7.jpg" alt="" class="works__img"></picture>
+                        <div class="works__info">
+                            <h4 class="works__name">Hair Dresser</h4>
+                            <h4 class="works__text">Branding</h4>
+                            <a href="#works7" class="works__link popup-links">view<picture><source srcset="img/arrowbtnt.webp" type="image/webp"><img src="img/arrowbtnt.png" alt="" class="works__arrow"></picture></a>
+                        </div>
+                    </div>
+                    <div class="works__item itemBox" data-item="Dovelopment">
+                        <picture><source srcset="img/works8.webp" type="image/webp"><img src="img/works8.jpg" alt="" class="works__img"></picture>
+                        <div class="works__info">
+                            <h4 class="works__name">Hair Dresser</h4>
+                            <h4 class="works__text">Branding</h4>
+                            <a href="#works8" class="works__link popup-links">view<picture><source srcset="img/arrowbtnt.webp" type="image/webp"><img src="img/arrowbtnt.png" alt="" class="works__arrow"></picture></a>
+                        </div>
+                    </div>
+                    <div class="works__item itemBox" data-item="Strategy">
+                        <picture><source srcset="img/works9.webp" type="image/webp"><img src="img/works9.jpg" alt="" class="works__img"></picture>
+                        <div class="works__info">
+                            <h4 class="works__name">Hair Dresser</h4>
+                            <h4 class="works__text">Branding</h4>
+                            <a href="#works9" class="works__link popup-links">view<picture><source srcset="img/arrowbtnt.webp" type="image/webp"><img src="img/arrowbtnt.png" alt="" class="works__arrow"></picture></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="paralax" data-effect='paralax'>
+            <div class="inner paralax__inner">
+                <p class="paralax__text _anim-items">Do you like OUR WORK so far?
+                    Let's talk about YOUR PROJECT!</p>
+                <a href="#contact" class="btn paralax__btn _anim-items">Get in Touch</a>
+            </div>
+        </section>
+        <section id="blog" class="blog">
+            <div class="inner blog__inner">
+                <h4 class="blog__title title">Recent blog posts</h4>
+                <h3 class="blog__subtitle subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</h3>
+                <div class="blog__posts">
+                    <div class="blog__post">
+                        <div class="blog__image">
+                            <picture><source srcset="img/blog1.jpg" type="image/webp"><img src="img/blog1.jpg" alt="" class="blog__img"></picture>
+                        </div>
+                        <div class="blog__desc">
+                            <div class="blog__head">
+                                <p class="blog__date"><span class="number">18</span><span class="oct">oct</span></p>
+                                <div class="blog__meta">
+                                    <p class="blog__name"><span class="red">Startup ideas needs to be funded</span></p>
+                                    <p class="blog__author">By <span class="red"> Khalil </span>Uddin in<span class="red"> Development</span></p>
+                                </div>
+                            </div>
+                            <div class="blog__article">
+                                <p class="blog__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod teduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit am Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor in</p>
+                                <p class="read-more-text blog__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, incidunt! Iure autem, aperiam voluptas accusantium obcaecati maxime numquam, nesciunt nisi nihil rerum ratione porro praesentium aliquam, in nemo maiores! Dolore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quod deleniti vero quasi explicabo facere ab, nemo reprehenderit nobis magni consectetur temporibus doloremque molestiae voluptate commodi alias amet nesciunt reiciendis!</p>
+                                <p class="blog__btn read-more-btn">read more</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog__post">
+                        <div class="blog__image">
+                            <picture><source srcset="img/blog2.jpg" type="image/webp"><img src="img/blog2.jpg" alt="" class="blog__img"></picture>
+                        </div>
+                        <div class="blog__desc">
+                            <div class="blog__head">
+                                <p class="blog__date"><span class="number">18</span><span class="oct">oct</span></p>
+                                <div class="blog__meta">
+                                    <p class="blog__name"><span class="red">Startup ideas needs to be funded</span></p>
+                                    <p class="blog__author">By <span class="red"> Khalil </span>Uddin in<span class="red"> Development</span></p>
+                                </div>
+                            </div>
+                            <div class="blog__article">
+                                <p class="blog__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod teduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit am Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor in</p>
+                                <p class="read-more-text blog__text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dignissimos, incidunt! Iure autem, aperiam voluptas accusantium obcaecati maxime numquam, nesciunt nisi nihil rerum ratione porro praesentium aliquam, in nemo maiores! Dolore! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam quod deleniti vero quasi explicabo facere ab, nemo reprehenderit nobis magni consectetur temporibus doloremque molestiae voluptate commodi alias amet nesciunt reiciendis!</p>
+                                <p class="blog__btn read-more-btn">read more</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="clients" id="clients">
+            <div class="clients__slide ">
+                <div class="inner clients__inner">
+                    <div class="clients__logos">
+                        <div class="clients__item">
+                            <picture><source srcset="img/clients1.webp" type="image/webp"><img src="img/clients1.png" alt="" class="clients__img"></picture>
+                        </div>
+                        <div class="clients__item">
+                            <picture><source srcset="img/clients2.webp" type="image/webp"><img src="img/clients2.png" alt="" class="clients__img"></picture>
+                        </div>
+                        <div class="clients__item">
+                            <picture><source srcset="img/clients3.webp" type="image/webp"><img src="img/clients3.png" alt="" class="clients__img"></picture>
+                        </div>
+                        <div class="clients__item">
+                            <picture><source srcset="img/clients4.webp" type="image/webp"><img src="img/clients4.png" alt="" class="clients__img"></picture>
+                        </div>
+                        <div class="clients__item">
+                            <picture><source srcset="img/clients5.webp" type="image/webp"><img src="img/clients5.png" alt="" class="clients__img"></picture>
+                        </div>
+                    </div>
+                    <!-- <p class="clients__text">"Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum”</p>
+                    <p class="clients__inc">John Doe, Google Inc.</p>
+                    <div class="clients__bulets">
+                        <div class="clients__bulet _active"></div>
+                        <div class="clients__bulet"></div>
+                        <div class="clients__bulet"></div>
+                        <div class="clients__bulet"></div>
+                    </div> -->
+                    <div class="slider__main">
+
+                        <div class="slider">
+                            <div class="slider__list">
+                              <div class="slider__item active" data-slide="1">
+                                <h3 class="text">"Hvaing placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum”</h3>
+                                <p class="title">
+                                    John Doe, Google Inc.
+                                </p>
+                              </div><!--/slider__item-->
+                              <div class="slider__item" data-slide="2">g">
+                                <h3 class="text">Lorem, ipsum.</h3>
+                                <p class="title">
+                                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia, commodi? Porro magnam cum nihil fuga fugiat!
+                                </p>
+                              </div><!--/slider__item-->
+                              <div class="slider__item" data-slide="3">g">
+                                <h3 class="text"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos consectetur repellat sed totam quo aspernatur quis eligendi in.</h3>
+                                <p class="title">
+                                    Lorem ipsum dolor sit.
+                                </p>
+                              </div><!--/slider__item-->
+                            </div><!--/slider__list-->
+                            
+                            <div class="slider__nav">
+                              <span class="slider__dot active" data-dot="1"></span>
+                              <span class="slider__dot" data-dot="2"></span>
+                              <span class="slider__dot" data-dot="3"></span>
+                            </div>
+                          </div>
+                        
+                    </div>
+                    
+                    
+                </div>
+                
+            </div>
+            
+            
+        </section>
+       
+        <section id="contact" class="contact">
+            <div class="inner contact__inner">
+                <h4 class="title contact__title">get in tuch</h4>
+                <h3 class="subtitle contact__subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</h3>
+                <div class="contact__content">
+                    <div class="contact__block">
+                        <div class="contact__item">
+                            <div class="contact__image">
+                                <picture><source srcset="img/location.webp" type="image/webp"><img src="img/location.png" alt="" class="contact__img"></picture>
+                            </div>
+                            <div class="contact__desc">
+                                <p class="contact__ti">Address</p>
+                                <p class="contact__text">312, 7th Ave, New York
+                                    NY 101200, United States of America</p>
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__image">
+                                <picture><source srcset="img/phone.webp" type="image/webp"><img src="img/phone.png" alt="" class="contact__img"></picture>
+                            </div>
+                            <div class="contact__desc">
+                                <p class="contact__ti">Hotline (24x7)</p>
+                                <a href="#" class="contact__text">+65 0052 300</a>
+                                <a href="#" class="contact__text">+65 88251 210</a>
+                                <a href="#" class="contact__text">+88 01723 511 340</a>   
+                            </div>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__image">
+                                <picture><source srcset="img/mail.webp" type="image/webp"><img src="img/mail.png" alt="" class="contact__img"></picture>
+                            </div>
+                            <div class="contact__desc">
+                                <p class="contact__ti">e-mail</p>
+                                <a href="#" class="contact__text">hapedtheme@gmail.com</a>
+                                <a href="#" class="contact__text">khalilkode@gmail.com</a>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="#" class="contact__form" name="vform" onsubmit="return Validate()">
+                        <input type="text" placeholder="Your name" name="nama" class="contact__input">
+                        <input type="text" placeholder="Your e-mail" name="email" class="contact__input">
+                        <input type="text" placeholder="Your subject"  name="subj" class="contact__input">
+                        <input type="text" placeholder="Company name" name="comp" class="contact__input">
+                        <textarea class="contact__input"  name="text" placeholder="write your message"></textarea>
+                        <button class="contact__btn" >send message</button>
+                        <p class="contact__p"><span class="r">*</span> We’ll contact you as as possible. We don’t reply on Monday.</p>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="inner footer__inner">
+                <div class="footer__conts">
+                    <a href="#" class="footer__item">
+                        <picture><source srcset="img/fb.webp" type="image/webp"><img src="img/twitterr.png" alt=""></picture>
+                    </a>
+                    <a href="#" class="footer__item">
+                        <picture><source srcset="img/twitterr.webp" type="image/webp"><img src="img/twitterr.png" alt=""></picture>
+                    </a>
+                    <a href="#" class="footer__item">
+                        <picture><source srcset="img/g+.webp" type="image/webp"><img src="img/twitterr.png" alt=""></picture>
+                    </a>
+                    <a href="#" class="footer__item">
+                        <picture><source srcset="img/in.webp" type="image/webp"><img src="img/twitterr.png" alt=""></picture>
+                    </a>
+                </div>
+                <p class="footer__text ">© 2015 Startup, Designed by ShapedTheme</p>
+            </div>
+        </footer>
+        
+    </div>
+    
+    <div id="popup" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__title">Login</div>
+                <div class="popup__login">
+                    <form action="" class="popup__form">
+                        <input type="text" class="popup__input" name="name" placeholder="Username">
+                        <input type="password" class="popup__input" name="password" placeholder="Password">
+                    </form>
+                    <a class="popup__acc popup-links " href="#admin">Enter admin</a>
+                    <button class="popup__btn">Log in </button>
+                </div>
+                <div class="popup__acc ">
+                    If you do not have an account <a href="#popup2" class="popup-links popup__regist">Register</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="admin" class="popup">
+        <div class="popup__body">
+            <div class class="popup__content">
+                <div class="admin__popup">
+                    <a href="#header" class="popup__close close-popup">X</a>
+
+                    <div class="admin__box" data-code='0'>
+                        <div class="admin__alert"></div>
+                        <div draggable="true" id='red' class="admin__key admin__key-red" data-code="0"></div>
+                        <div draggable="true" id="blue" class="admin__key admin__key-blue" data-code="1"></div>
+                        <div draggable="true" id="yellow" class="admin__key admin__key-yellow" data-code="2"></div>
+                        <div draggable="true" id="green" class="admin__key admin__key-green" data-code="3"></div>
+                    </div>
+                    <div class="admin__box" data-code="1"></div>
+                    <div class="admin__box" data-code="2"></div>
+                    <div class="admin__box" data-code="3"></div>
+                    
+                </div>
+                </div>            
+            </div>
+        </div>
+    </div>
+    <div id="popup2" class="popup">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__title">Registration</div>
+                <form action="" class="popup__form">
+                    <input type="text" class="popup__input" name="name" placeholder="First name">
+                    <input class="popup__input" type="text" name="E-mail" placeholder="Email address">
+                    <input type="password" class="popup__input" name="password" placeholder="Password">
+                    <input type="date" class="popup__input" name="bday">
+                    <div class="popup__gen">
+                        Gender:
+                        <select id="selection" class="popup__gender">
+                            <option>Gender</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                        </select>
+                    </div>
+                    <button class="popup__btn">Submit</button>
+                </form>
+                <div class="popup__acc">
+                    If you have an account  <a href="#popup" class="popup-links popup__regist">Log in</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="works1" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__image">
+                    <img src="img/works1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="works2" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__image">
+                    <img src="img/works2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="works3" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__image">
+                    <img src="img/works3.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="works4" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__image">
+                    <img src="img/works4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="works5" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__image">
+                    <img src="img/works5.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="works6" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__image">
+                    <img src="img/works6.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="works7" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__image">
+                    <img src="img/works7.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="works8" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__image">
+                    <img src="img/works8.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="works9" class="popup">
+        <div class="popup__body">
+            <div class="popup__content popup__content_image">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__image">
+                    <img src="img/works9.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="welcome" class="popup welcome">
+        <div class="popup__body">
+            <div class="popup__content">
+                <a href="#header" class="popup__close close-popup">X</a>
+                <div class="popup__text" id="result">  
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./popup.js"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.6.0.js"
+  integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk="
+  crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>

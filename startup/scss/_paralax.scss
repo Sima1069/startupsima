@@ -1,0 +1,40 @@
+.paralax {
+    background: linear-gradient(rgba(122, 68, 65, 0.8), rgba(122, 68, 65, 0.8)), url("../img/paralax-bg.jpg");
+    padding: 100px 0;
+    background-position: 50% 50%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    &__inner {
+        max-width: 455px;
+    }
+    &__text {
+        font-family: "Roboto Slab", serif;
+        text-align: center;
+        font-size: 30px;
+        color: #fff;
+        line-height: 120%;
+        opacity: 0;
+        transition: all 0.8s ease 0s;
+        transform: translate(0px, 30%);
+    }
+    &__btn{
+        transition: all 0.8s ease 0s;
+        transform: translate(0px, -30%);
+        opacity: 0;
+    }
+}
+
+.paralax__btn._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+.paralax__text._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}
+// @media(max-width:550px){
+//     .paralax__text {
+//         font-size: 20px;
+//     }
+// }

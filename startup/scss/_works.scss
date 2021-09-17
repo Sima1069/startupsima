@@ -1,0 +1,115 @@
+.works {
+  padding: 100px 0;
+  &__switcher {
+    max-width: 416px;
+    display: flex;
+    margin: 0px auto;
+    margin-top: 49px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  &__btn {
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: "Roboto Slab", serif;
+    margin-right: 5px;
+    &:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+  
+  &__plate {
+    margin: 0 auto;
+    margin-top: 60px;
+    align-items: center;
+    display: flex;
+    max-width: 1134px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  &__item {
+    margin-top: 30px;
+    display: block;
+    position: relative;
+    width: 360px;
+    height: 320px;
+    overflow: hidden;
+  }
+  &__img {
+    width: 100%;
+    height: 100%;
+    object-fit: center;
+  }
+  &__info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    color: #fff;
+    background: rgba(207, 106, 95, 0.7);
+    transition: 0.3s all linear;
+    &:hover {
+        opacity: 1;
+    }
+  }
+  &__name {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+  }
+  &__text {
+    margin-top: 16px;
+    font-family: "Roboto Slab", serif;
+    font-size: 12px;
+  }
+  &__link {
+    padding: 14px 21px;
+    background: #ffffff;
+    color: #c0301c;
+    font-family: "Roboto Slab", serif;
+    font-size: 14px;
+    margin-top: 28px;
+    text-transform: uppercase;
+    transition: 0.3s all linear;
+    &:hover {
+        background: #000;
+    }
+  }
+  &__arrow {
+    width: 7px;
+    height: 10px;
+    margin-left: 12px;
+  }
+}
+.itemBox.hide{
+    display: none;
+}
+.list.active {
+    color: #c0301c;
+}
+
+@media (max-width: 1498px) {
+    .works__plate {
+        justify-content: center;
+    }
+  
+    .works__item:nth-child(odd) {
+      margin-right: 30px;
+    }
+}
+@media (max-width: 1013px) {
+    .works__item:nth-child(odd) {
+      margin-right: 0px;
+    }
+  
+    .works__item {
+      width: 80%;
+      height: auto;
+    }
+}

@@ -1,0 +1,36 @@
+.intro {
+    background: linear-gradient(rgba(122, 68, 65, 0.8) , rgba(122, 68, 65, 0.8)), url("../img/intro-bg.png");
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    display: block;
+    padding-top: 323px;
+    background-attachment: fixed;
+    padding-bottom: 30px;
+    background-size: cover;
+    z-index: -2;
+    color: #ffffff;
+    min-height: 100vh;
+    &__title {
+        transition: all 0.8s ease 0s;
+        transform: translate(-50%, 0px);
+        text-align: center;
+        font-size: 48px;
+        font-family: "Montserrat", sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+        opacity: 0;
+    }
+    &__subtitle {
+        text-align: center;
+        font-family: "Roboto Slab", serif;
+        font-weight: normal;
+        font-size: 20px;
+        margin-top: 32px;
+    }
+}
+
+
+.intro__title._active{
+    transform: translate(0px, 0px);
+    opacity: 1;
+}

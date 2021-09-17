@@ -1,0 +1,129 @@
+.about {
+    padding: 100px 5px;
+    background: #f8f8f8;
+  }
+  
+  .about__inner {
+    max-width: 1150px;
+  }
+  
+  .about__block {
+    margin-top: 72px;
+    display: flex;
+        flex-wrap: wrap;
+            justify-content: space-between;
+  }
+  
+  .about__item {
+    max-width: 555px;
+    font-family: "Roboto Slab", serif;
+    line-height: 130%;
+    font-size: 14px;
+  }
+  
+  .about__slider {
+    margin-top: 72px;
+    display: flex;
+    overflow: hidden;
+        flex-wrap: nowrap;
+    position: relative;
+  }
+  
+  .about__btn {
+    display: block;
+    position: absolute;
+    top: 50%;
+            transform: translateY(-100%);
+    left: 0;
+    z-index: 2;
+    background: #c8c8c8;
+    padding: 12px 13px 12px 14px;
+  }
+  
+  .about__arrow {
+    width: 9px;
+    height: 16px;
+  }
+  
+  .about__next {
+    left: 100%;
+            transform: translate(-100%, -100%) rotate(180deg);
+  }
+  
+  .about__slide {
+    padding: 0;
+    max-width: 263px;
+    margin-right: 29px;
+  }
+  
+  .about__slide:last-child {
+    margin-right: 0;
+  }
+  
+  .about__image {
+    display: block;
+    width: 263px;
+    position: relative;
+    height: 250px;
+    overflow: hidden;
+  }
+  
+  .about__img {
+    width: 100%;
+    height: 100%;
+       object-fit: cover;
+  }
+  
+  .about__socials {
+    position: absolute;
+    bottom: 25px;
+    left: 40px;
+    display: flex;
+  }
+  
+  .about__icon {
+    width: auto;
+    height: 25px;
+  }
+  
+  .about__link {
+    margin-right: 5px;
+    transition: 0.3s color linear;
+    padding: 10px;
+  }
+  
+  .about__link:last-child {
+    margin-right: 0;
+  }
+  
+  .about__link:hover {
+    background: #c0301c;
+  }
+  
+  .about__name {
+    margin-top: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+  }
+  
+  .about__job {
+    font-family: "Roboto Slab", serif;
+    text-align: center;
+    margin-top: 17px;
+    font-size: 13px;
+  }
+  .slider-container{
+    display: flex;
+  }
+  .slider-track{
+    display: flex;
+  }
+
+  @media (max-width: 1118px) {
+    .about__item {
+      margin: 10px auto;
+    }
+  }
+
